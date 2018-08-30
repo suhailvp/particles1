@@ -1,0 +1,74 @@
+html,body  {
+	max-height:100%; 
+}
+body{
+		background: black;
+		margin: 0;
+}
+.item{
+	text-align: center;
+	margin-top: 250px;
+	font-family: 'Jura';font-size: 20px; 
+	margin-bottom: 0;
+}
+.bodys{
+	
+	display: flex;
+	align-items: center;
+	font-family: 'Jura';font-size: 35px; 
+	justify-content: center;
+
+}
+h1{
+	color: white;
+}
+
+
+h2{
+	margin-top: 3px;
+	animation: typing-text 2s steps(31), blink 0.5s infinite alternate;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 3px solid white ;
+	color: white;
+}
+button{
+	text-decoration: none;
+}
+.buttonss{
+	color: white;
+	background: black;
+	padding: 2px 35px 2px 35px;
+	border:solid 1px;
+	font-family: 'Jura';font-size: 20px; 
+	font-weight: bold;
+	text-decoration: none;
+}
+.buttonss:hover{
+	color: white;
+	background: green;
+	padding: 2px 35px 2px 35px;
+	border:solid 1px;
+	font-family: 'Jura';font-size: 20px; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+@keyframes typing-text{
+	from{
+		width:0;
+	}
+	to{
+		width:738.266px;
+	}
+}
+@keyframes blink{
+	from{
+		border-color:transparent;
+	}
+	to{
+		border-color:white;
+	}
+
+}
